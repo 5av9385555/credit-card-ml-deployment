@@ -60,6 +60,10 @@ credit-card-ml-deployment/
 ├── models/
 │   ├── model_v1.pkl
 │   └── features_v1.pkl
+│   └── train_model.py      # Скрипт обучения модели
+│
+├── notebooks/
+│   └── training_pipeline.ipynb   # Ноутбук с обучением
 │
 ├── tests/
 │   └── test_api.py
