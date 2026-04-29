@@ -55,7 +55,7 @@ credit-card-ml-deployment/
 │
 ├── app/
 │   ├── api.py              # Flask API
-│   └── model_handler.py   # Загрузка и использование модели
+│   └── model_handler.py    # Загрузка и использование модели
 │
 ├── models/
 │   ├── model_v1.pkl
