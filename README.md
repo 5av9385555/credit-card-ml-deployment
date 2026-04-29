@@ -91,8 +91,6 @@ python -m app.api
 http://127.0.0.1:5000
 ```
 
----
-
 ### 🔹 2. Через Docker Hub
 
 #### Скачать образ:
@@ -100,6 +98,7 @@ http://127.0.0.1:5000
 ```bash
 docker pull 5avdocker/credit-card-api
 ```
+---
 
 #### Запуск контейнера:
 
