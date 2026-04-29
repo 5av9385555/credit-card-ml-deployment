@@ -107,6 +107,16 @@ docker pull 5avdocker/credit-card-api
 docker run -p 5000:5000 5avdocker/credit-card-api
 ```
 
+### 📸 Демонстрация работы
+
+После запуска контейнера:
+
+```bash
+docker run -p 5000:5000 5avdocker/credit-card-api
+
+<img width="447" height="122" alt="image" src="https://github.com/user-attachments/assets/4e5e8efd-9512-43ee-85fd-1d0886d12181" />
+
+
 ## 🔍 API эндпоинты
 
 ### ✅ Проверка сервиса
