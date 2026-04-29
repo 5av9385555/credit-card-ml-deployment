@@ -107,12 +107,6 @@ docker pull 5avdocker/credit-card-api
 docker run -p 5000:5000 5avdocker/credit-card-api
 ```
 
-#### Сервис будет доступен:
-
-http://127.0.0.1:5000
-
----
-
 ## 🔍 API эндпоинты
 
 ### ✅ Проверка сервиса
