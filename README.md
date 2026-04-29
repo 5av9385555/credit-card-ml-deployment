@@ -93,18 +93,18 @@ http://127.0.0.1:5000
 
 ---
 
-### 🔹 2. Через Docker
+### 🔹 2. Через Docker Hub
 
-#### Сборка образа:
+#### Скачать образ:
 
 ```bash
-docker build -t credit-card-api .
+docker pull 5avdocker/credit-card-api
 ```
 
 #### Запуск контейнера:
 
 ```bash
-docker run -p 5000:5000 credit-card-api
+docker run -p 5000:5000 5avdocker/credit-card-api
 ```
 
 ---
