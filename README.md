@@ -114,7 +114,7 @@ docker run -p 5000:5000 5avdocker/credit-card-api
 ```bash
 docker run -p 5000:5000 5avdocker/credit-card-api
 
-<img width="447" height="122" alt="image" src="https://github.com/user-attachments/assets/4e5e8efd-9512-43ee-85fd-1d0886d12181" />
+![Docker run logs](https://github.com/user-attachments/assets/4e5e8efd-9512-43ee-85fd-1d0886d12181)
 
 
 ## 🔍 API эндпоинты
