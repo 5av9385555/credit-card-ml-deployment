@@ -113,11 +113,8 @@ docker run -p 5000:5000 5avdocker/credit-card-api
 
 ```bash
 docker run -p 5000:5000 5avdocker/credit-card-api
-
+```
 ![Docker run logs](https://github.com/user-attachments/assets/4e5e8efd-9512-43ee-85fd-1d0886d12181)
-
-
-## 🔍 API эндпоинты
 
 ### ✅ Проверка сервиса
 
@@ -130,6 +127,13 @@ curl http://127.0.0.1:5000/health
 ```json
 {"status": "healthy"}
 ```
+
+---
+
+## 🔍 API эндпоинты
+
+
+
 
 ---
 
