@@ -1,41 +1,22 @@
 from flask import Flask, request, jsonify
-import joblib
-import numpy as np
+from app.model_handler import predict_default
 
 app = Flask(__name__)
 
-# загрузка модели
-model = joblib.load("models/model_v1.pkl")
-
-
-@app.route("/")
-def home():
-    return jsonify({"message": "Credit Card ML API работает"})
-
-
-@app.route("/health")
+@app.route("/health", methods=["GET"])
 def health():
-    return jsonify({"status": "ok"})
-
+    return jsonify({"status": "healthy"}), 200
 
 @app.route("/predict", methods=["POST"])
 def predict():
     try:
         data = request.get_json()
 
-        features = np.array([
-            data["age"],
-            data["income"],
-            data["balance"]
-        ]).reshape(1, -1)
+        if not data:
+            return jsonify({"error": "Empty JSON"}), 400
 
-        prediction = model.predict(features)[0]
-        probability = model.predict_proba(features)[0][1]
-
-        return jsonify({
-            "prediction": int(prediction),
-            "probability": float(probability)
-        })
+        result = predict_default(data)
+        return jsonify(result), 200
 
     except Exception as e:
         return jsonify({"error": str(e)}), 400
