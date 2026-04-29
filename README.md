@@ -122,7 +122,7 @@ docker run -p 5000:5000 5avdocker/credit-card-api
 ### ✅ Проверка сервиса
 
 ```
-GET /health
+curl http://127.0.0.1:5000/health
 ```
 
 Ответ:
