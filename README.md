@@ -69,6 +69,7 @@ credit-card-ml-deployment/
 │
 ├── Dockerfile                   # Инструкция сборки Docker-образа
 ├── requirements.txt             # Зависимости Python
+├── docker-compose.yml           # Оркестрация и запуск ML-сервиса через Docker Compose
 ├── ab_test_plan.md              # План A/B тестирования моделей
 └── README.md                    # Документация проекта
 ```
