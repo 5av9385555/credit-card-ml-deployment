@@ -121,9 +121,8 @@ curl http://127.0.0.1:5000/health
 
 Ответ:
 
-```json
-{"status": "healthy"}
-```
+<img width="240" height="31" alt="image" src="https://github.com/user-attachments/assets/9c7e57e3-646a-48c3-8e99-ac28715bf30d" />
+
 
 ---
 
