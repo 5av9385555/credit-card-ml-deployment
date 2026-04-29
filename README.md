@@ -53,25 +53,26 @@
 ```
 credit-card-ml-deployment/
 │
-├── app/
-│   ├── api.py              # Flask API
-│   └── model_handler.py    # Загрузка и использование модели
+├── app/                         # Основной код приложения
+│   ├── api.py                   # Flask API
+│   └── model_handler.py         # Загрузка модели и логика предсказания
 │
-├── models/
-│   ├── model_v1.pkl
-│   └── features_v1.pkl
-│   └── train_model.py      # Скрипт обучения модели
+├── models/                      # Сохранённые артефакты модели
+│   ├── model_v1.pkl             # Обученная ML модель
+│   ├── features_v1.pkl          # Список признаков/фичей
+│   └── train_model.py           # Скрипт обучения модели
 │
-├── notebooks/
-│   └── training_pipeline.ipynb   # Ноутбук с обучением
+├── notebooks/                   # Исследование и обучение модели
+│   └── training_pipeline.ipynb  # Jupyter notebook с EDA и обучением
 │
-├── tests/
-│   └── test_api.py
+├── tests/                       # Автоматические тесты
+│   └── test_api.py              # Тесты API (/health и /predict)
 │
-├── Dockerfile
-├── requirements.txt
-├── docker-compose.yml
-└── README.md
+├── Dockerfile                   # Инструкция сборки Docker-образа
+├── requirements.txt             # Зависимости Python
+├── docker-compose.yml           # (опционально) запуск через Docker Compose
+├── ab_test_plan.md              # План A/B тестирования моделей
+└── README.md                    # Документация проекта
 ```
 
 ---
