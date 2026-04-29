@@ -55,12 +55,11 @@ credit-card-ml-deployment/
 │
 ├── app/                         # Основной код приложения
 │   ├── api.py                   # Flask API
-│   └── model_handler.py         # Загрузка модели и логика предсказания
+│   └── model_handler.py         # Загрузка модели
 │
-├── models/                      # Сохранённые артефакты модели
+├── models/                      # Сохранённые модели
 │   ├── model_v1.pkl             # Обученная ML модель
 │   ├── features_v1.pkl          # Список признаков/фичей
-│   └── train_model.py           # Скрипт обучения модели
 │
 ├── notebooks/                   # Исследование и обучение модели
 │   └── training_pipeline.ipynb  # Jupyter notebook с EDA и обучением
