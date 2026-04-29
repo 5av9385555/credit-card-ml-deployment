@@ -199,4 +199,4 @@ pytest
 
 ## 👨‍💻 Автор
 
-Student ML Engineer 🚀
+Student ML Vasiluyk Andrey 🚀
