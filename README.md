@@ -217,4 +217,4 @@ pytest
 
 ## 👨‍💻 Автор
 
-Автор: Andrey Vasiluyk
+Автор: Andrey Vasilyuk
