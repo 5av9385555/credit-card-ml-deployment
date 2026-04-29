@@ -219,4 +219,4 @@ pytest
 
 ## 👨‍💻 Автор
 
-Student ML Vasiluyk Andrey 🚀
+Автор: Andrey Vasiluyk
